@@ -1,0 +1,245 @@
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\AutoFy.exe
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.exe
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\Student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+\\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+\\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+\\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.exe
+\\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+E:\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+E:\AutoFy\AutoFy\bin\Release\AutoFy.exe
+E:\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+E:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+E:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+E:\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+E:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+E:\AutoFy\AutoFy\obj\Release\AutoFy.exe
+E:\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+E:\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+E:\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+E:\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+G:\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+G:\AutoFy\AutoFy\bin\Release\AutoFy.exe
+G:\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+G:\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+G:\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+G:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+G:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+G:\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+G:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+G:\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+G:\AutoFy\AutoFy\obj\Release\AutoFy.exe
+G:\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+E:\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+E:\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+G:\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+C:\Users\nand5\Desktop\AutoFy\AutoFy\bin\Release\AutoFy.exe
+C:\Users\nand5\Desktop\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+C:\Users\nand5\Desktop\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+C:\Users\nand5\Desktop\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.exe
+C:\Users\nand5\Desktop\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\AutoFy.exe
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.exe
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\nand5\Desktop\дома\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+G:\Сдача\AutoFy\AutoFy\bin\Release\AutoFy.exe
+G:\Сдача\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+G:\Сдача\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+G:\Сдача\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Сдача\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.exe
+G:\Сдача\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.exe
+G:\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.exe
+C:\Users\nand5\Desktop\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.exe
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.exe
+B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.pdb
