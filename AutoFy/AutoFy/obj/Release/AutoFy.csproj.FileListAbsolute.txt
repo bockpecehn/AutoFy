@@ -243,3 +243,34 @@ B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\Aut
 B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
 B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.exe
 B:\Новая папка\Сдача — копия\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\AutoFy.exe.config
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\AutoFy.exe
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\AutoFy.pdb
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Data.SQLite.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Data.SQLite.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.AdminForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.ContactsForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.LoginForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.SignupForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.ChooseCarForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.CarCheckoutForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.CarRentForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.PaymentForm.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.Properties.Resources.resources
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResource.cache
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.exe
+C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.pdb

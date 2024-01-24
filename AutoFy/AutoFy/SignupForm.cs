@@ -89,8 +89,11 @@ namespace AutoFy
 
         private void ContactsButton_Click(object sender, EventArgs e)
         {
+            SignupForm thisForm = new SignupForm();
             ContactsForm newForm = new ContactsForm();
+            newForm.FormClosed += new FormClosedEventHandler(Form_FormClosed);
             newForm.Show();
+            thisForm.Close();
         }
     }
 }

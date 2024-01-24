@@ -238,7 +238,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignupForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Регистрация";
             this.Load += new System.EventHandler(this.SignupForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarsPicture)).EndInit();
