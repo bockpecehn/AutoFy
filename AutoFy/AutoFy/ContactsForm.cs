@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using System.Management;
+using Microsoft.Win32;
 
 namespace AutoFy
 {
@@ -42,6 +43,9 @@ namespace AutoFy
             // Создание объекта для поиска информации о ОЗУ
             var memorySearcher = new ManagementObjectSearcher("SELECT * FROM Win32_PhysicalMemory");
             // Создание объекта StringBuilder для объединения результатов запросов
+            var dotNetCoreVersion = Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Core\", "Version", null);
+            var dotNetFrameworkVersion = Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\", "Version", null);
+
             StringBuilder sb = new StringBuilder();
 
             // Получаем информацию о версии Windows
@@ -54,17 +58,15 @@ namespace AutoFy
                 sb.AppendLine($"Номер сборки: {osBuildNumber}\n");
             }
 
+            sb.AppendLine($".NET Core версия: {dotNetCoreVersion ?? "Нет информации"}");
+            sb.AppendLine($".NET Framework версия: {dotNetFrameworkVersion ?? "Нет информации"}\n");
+
             // Обрабатываем информацию о видеокарте
             foreach (var videoCard in videoCardSearcher.Get())
             {
                 var videoCardName = (string)videoCard["Name"];
-                var videoCardAdapterRAM = videoCard["AdapterRAM"]; // Объем памяти видеокарты в байтах
-
-                // Преобразуем объем памяти видеокарты в гигабайты
-                var videoCardMemoryInMB = Convert.ToInt64(videoCardAdapterRAM) / (1024 * 1024 * 1024);
 
                 sb.AppendLine($"Видеокарта: {videoCardName}");
-                sb.AppendLine($"Память видеокарты: {videoCardMemoryInMB} ГБ\n");
             }
 
             // Обрабатываем информацию о процессоре
@@ -83,7 +85,7 @@ namespace AutoFy
                 var memoryCapacity = Convert.ToUInt64(memory["Capacity"]);
                 var memorySize = memoryCapacity / (1024 * 1024 * 1024); // Преобразуем к гигабайтам
                 sb.AppendLine($"Оперативная память: {memorySize} ГБ");
-            }
+            }           
 
             // Записываем результат в SysInfo
             InfoPCrtb.Text = sb.ToString();
