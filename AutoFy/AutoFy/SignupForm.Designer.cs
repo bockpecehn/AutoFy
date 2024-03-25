@@ -45,6 +45,8 @@
             this.UserName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.UserSurname = new System.Windows.Forms.TextBox();
+            this.AutoTestBut = new System.Windows.Forms.Button();
+            this.DelBut = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PictureLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CarsPicture)).BeginInit();
             this.panel1.SuspendLayout();
@@ -223,12 +225,35 @@
             this.UserSurname.Size = new System.Drawing.Size(320, 20);
             this.UserSurname.TabIndex = 8;
             // 
+            // AutoTestBut
+            // 
+            this.AutoTestBut.Location = new System.Drawing.Point(498, 15);
+            this.AutoTestBut.Name = "AutoTestBut";
+            this.AutoTestBut.Size = new System.Drawing.Size(75, 23);
+            this.AutoTestBut.TabIndex = 17;
+            this.AutoTestBut.Text = "Автотест";
+            this.AutoTestBut.UseVisualStyleBackColor = true;
+            this.AutoTestBut.Click += new System.EventHandler(this.AutoTestBut_Click);
+            // 
+            // DelBut
+            // 
+            this.DelBut.Location = new System.Drawing.Point(588, 15);
+            this.DelBut.Name = "DelBut";
+            this.DelBut.Size = new System.Drawing.Size(75, 23);
+            this.DelBut.TabIndex = 18;
+            this.DelBut.Text = "Удалить";
+            this.DelBut.UseVisualStyleBackColor = true;
+            this.DelBut.Visible = false;
+            this.DelBut.Click += new System.EventHandler(this.DelBut_Click);
+            // 
             // SignupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.DelBut);
+            this.Controls.Add(this.AutoTestBut);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MinimizeButton);
             this.Controls.Add(this.CloseButton);
@@ -266,5 +291,7 @@
         private System.Windows.Forms.Label ContactsLabel;
         private System.Windows.Forms.Button ContactsButton;
         private System.Windows.Forms.MaskedTextBox UserPhoneNumber;
+        private System.Windows.Forms.Button AutoTestBut;
+        private System.Windows.Forms.Button DelBut;
     }
 }

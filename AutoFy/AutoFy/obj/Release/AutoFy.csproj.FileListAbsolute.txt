@@ -6,8 +6,6 @@ C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.GenerateResou
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CoreCompileInputs.cache
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.exe
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.pdb
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
 \\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.csproj.AssemblyReference.cache
 \\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.csproj.SuggestedBindingRedirects.cache
 \\192.168.3.250\Veda\2 Курс\ИСП 21-9\Основы алгоритмизации и программирования\AutoFy\AutoFy\obj\Release\AutoFy.exe
@@ -274,3 +272,15 @@ C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.C
 C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.csproj.CopyComplete
 C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.exe
 C:\Users\nand5\Documents\GitHub\AutoFy\AutoFy\AutoFy\obj\Release\AutoFy.pdb
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\Telegram.Bot.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\Newtonsoft.Json.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Release\Telegram.Bot.xml
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Release\AutoFy.csprojAssemblyReference.cache

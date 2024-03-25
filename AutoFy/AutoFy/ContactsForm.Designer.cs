@@ -46,6 +46,7 @@
             this.BackButton = new System.Windows.Forms.Button();
             this.SendButton = new System.Windows.Forms.Button();
             this.Communication = new System.Windows.Forms.Label();
+            this.InfoPCrtb = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -227,11 +228,21 @@
             this.Communication.Size = new System.Drawing.Size(0, 20);
             this.Communication.TabIndex = 28;
             // 
+            // InfoPCrtb
+            // 
+            this.InfoPCrtb.Location = new System.Drawing.Point(229, 54);
+            this.InfoPCrtb.Name = "InfoPCrtb";
+            this.InfoPCrtb.ReadOnly = true;
+            this.InfoPCrtb.Size = new System.Drawing.Size(335, 255);
+            this.InfoPCrtb.TabIndex = 29;
+            this.InfoPCrtb.Text = "";
+            // 
             // ContactsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.InfoPCrtb);
             this.Controls.Add(this.Communication);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.BackButton);
@@ -283,5 +294,6 @@
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button SendButton;
         private System.Windows.Forms.Label Communication;
+        private System.Windows.Forms.RichTextBox InfoPCrtb;
     }
 }

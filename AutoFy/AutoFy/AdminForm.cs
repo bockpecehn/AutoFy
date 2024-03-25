@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Windows.Forms;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
+using System.IO;
+using System.Linq;
 
 namespace AutoFy
 {
@@ -52,11 +54,7 @@ namespace AutoFy
             string Power = PowerText.Text;
             string Transmission = TransmissionText.Text;
             string DriveUnit = DriveUnitText.Text;
-            string BodyTipe = BodyTypeText.Text;
             string Color = ColorText.Text;
-            string Mileage = MileageText.Text;
-            string SteeringWheel = SteeringWheelText.Text;
-            string Generation = GenerationText.Text;
             string VINCode = VINCodeText.Text;
             string CarRat = AddCarRat.Text;
             string CarPrice = AddCarPrice.Text;
@@ -68,29 +66,16 @@ namespace AutoFy
                     $"\r\n {PowerCar.Text} {Power}" +
                     $"\r\n {TransmissionCar.Text} {Transmission}" +
                     $"\r\n {DriveUnitCar.Text} {DriveUnit}" +
-                    $"\r\n {BodyTypeCar.Text} {BodyTipe}" +
                     $"\r\n {ColorCar.Text} {Color}" +
-                    $"\r\n {MileageCar.Text} {Mileage}" +
-                    $"\r\n {SteeringWheelCar.Text} {SteeringWheel}" +
-                    $"\r\n {GenerationCar.Text} {Generation}" +
                     $"\r\n {VINCodeCar.Text} {VINCode}" +
                     $"\r\n Оценка:  {CarRat}" +
                     $"\r\n Стоимость: {CarPrice}";
 
                 // Проверка, что ни одно из текстовых полей не пустое
-                if (NameCar != string.Empty
-                && Engine != string.Empty
-                && Power != string.Empty
-                && Transmission != string.Empty
-                && DriveUnit != string.Empty
-                && BodyTipe != string.Empty
-                && Color != string.Empty
-                && Mileage != string.Empty
-                && SteeringWheel != string.Empty
-                && Generation != string.Empty
-                && VINCode != string.Empty
-                && CarRat != string.Empty
-                && CarPrice != string.Empty)
+                if (string.IsNullOrEmpty(NameCar) || string.IsNullOrEmpty(Engine)
+                    || string.IsNullOrEmpty(Power) || string.IsNullOrEmpty(Transmission)
+                    || string.IsNullOrEmpty(DriveUnit) || string.IsNullOrEmpty(Color)
+                    || string.IsNullOrEmpty(CarRat) || string.IsNullOrEmpty(CarPrice))
                 {
                     // Создание нового объекта TelegramBotClient с помощью токена бота
                     TelegramBotClient bot = new TelegramBotClient("5901448502:AAHluKkavkFJM9fLI1Hu3POkex45Ag2lZPA");
@@ -115,11 +100,7 @@ namespace AutoFy
                  $"\r\n {PowerCar.Text} {Power}" +
                  $"\r\n {TransmissionCar.Text} {Transmission}" +
                  $"\r\n {DriveUnitCar.Text} {DriveUnit}" +
-                 $"\r\n {BodyTypeCar.Text} {BodyTipe}" +
                  $"\r\n {ColorCar.Text} {Color}" +
-                 $"\r\n {MileageCar.Text} {Mileage}" +
-                 $"\r\n {SteeringWheelCar.Text} {SteeringWheel}" +
-                 $"\r\n {GenerationCar.Text} {Generation}" +
                  $"\r\n {VINCodeCar.Text} {VINCode}";
             // Формирование SQL-запроса на добавление записи в базу данных
             SQLiteCommand commandInsert = new SQLiteCommand($"INSERT INTO Cars (CarName, CarSpecs, CarRating, CarPrice)" +
@@ -157,6 +138,88 @@ namespace AutoFy
 
                 // присвоение тексту поля AddCarRat максимального значения
                 AddCarRat.Text = maxValue.ToString();
+        }
+        string GRR(int length)
+        {
+            const string chars = "0123456789";
+            Random random = new Random();
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        private async void ATBut_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+
+            var randomCName = File.ReadAllLines("random\\car.txt");
+            string[] randomEn = { "Бензин, 1.2 л", "Бензин, 1.6 л", "Бензин 2.0 л"};
+            string[] randomTr = { "Робот", "Механика", "Автомат"};
+            string[] randomPw = { "50 л.с.", "100 л.с.", "150 л.с.", "200 л.с."};
+            string[] randomDU = { "Полный", "Задний", "Передний" };
+            string[] randomCl = { "Синий", "Чёрный", "Белый", "Красный"};
+            string VCod = "*****************";
+            string[] randomPr = { "1500 ₽/Час", "500 ₽/Час", "1000 ₽/Час" };
+            
+            int recordsToInsert = 5;
+            TelegramBotClient bot = new TelegramBotClient("5901448502:AAHluKkavkFJM9fLI1Hu3POkex45Ag2lZPA");
+            for (int i = 0; i < recordsToInsert; i++)
+            {
+                string RanNm = randomCName[random.Next(randomCName.Length)];
+                string RanEn = randomEn[random.Next(randomEn.Length)];
+                string RanTr = randomTr[random.Next(randomTr.Length)];
+                string RanPw = randomPw[random.Next(randomPw.Length)];
+                string RanDU = randomDU[random.Next(randomDU.Length)];
+                string RanCl = randomCl[random.Next(randomCl.Length)];
+                string RanRt = GRR(1) + "," + GRR(1);
+                string RanPr = randomPr[random.Next(randomPr.Length)];
+                string CS = $"{EngineCar.Text} {RanEn}" +
+                 $"\r\n {PowerCar.Text} {RanPw}" +
+                 $"\r\n {TransmissionCar.Text} {RanTr}" +
+                 $"\r\n {DriveUnitCar.Text} {RanDU}" +
+                 $"\r\n {ColorCar.Text} {RanCl}" +
+                 $"\r\n {VINCodeCar.Text} {VCod}";
+                SQLiteCommand commandInsert = new SQLiteCommand($"INSERT INTO Cars (CarName, CarSpecs, CarRating, CarPrice)" +
+                    $" VALUES ('{RanNm}', '{CS}', '{RanRt}', '{RanPr}')", DB);
+                _ = commandInsert.ExecuteNonQueryAsync();
+                string message = $"От: ADMIN\r\n Тема: Добавление машины \r\n 'Название машины: '{RanNm}" +
+                    $"\r\n {EngineCar.Text} {RanEn}" +
+                    $"\r\n {PowerCar.Text} {RanPw}" +
+                    $"\r\n {TransmissionCar.Text} {RanTr}" +
+                    $"\r\n {DriveUnitCar.Text} {RanDU}" +
+                    $"\r\n {ColorCar.Text} {RanCl}" +
+                    $"\r\n {VINCodeCar.Text} {VCod}" +
+                    $"\r\n Оценка:  {RanRt}" +
+                    $"\r\n Стоимость: {RanPr}";            
+                _ = await bot.SendTextMessageAsync(chatId: "1204870863", text: message);
+            }
+            DelBut.Visible = true;
+            ATBut.Visible = false;
+        }
+
+        private void DelBut_Click(object sender, EventArgs e)
+        {
+            SQLiteCommand commandDelete = new SQLiteCommand("DELETE FROM Cars ORDER BY ID DESC LIMIT 5", DB);
+            _ = commandDelete.ExecuteNonQueryAsync();
+            DelBut.Visible = false;
+            ATBut.Visible = true;
+        }
+
+        private void DBCloneBut_Click(object sender, EventArgs e)
+        {
+            string sourceFilePath = "database.db";
+            string destinationFolderPath = "saveDB";
+
+            string fileName = Path.GetFileName(sourceFilePath);
+            string destinationFilePath = Path.Combine(destinationFolderPath, fileName);
+
+            try
+            {
+                File.Copy(sourceFilePath, destinationFilePath, true);
+                MessageBox.Show("База данных успешно скопированна", "Успех");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при копировании базы данных: " + ex.Message, "Ошибка");
+            }
         }
     }
 }

@@ -2,19 +2,11 @@
 C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\AutoFy.exe.config
 C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\AutoFy.exe
 C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\AutoFy.pdb
-C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form1.resources
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Properties.Resources.resources
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csproj.GenerateResource.cache
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csproj.CoreCompileInputs.cache
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.exe
 C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.pdb
-C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form2.resources
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csproj.AssemblyReference.cache
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csproj.SuggestedBindingRedirects.cache
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form3.resources
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form4.resources
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form5.resources
-C:\Users\Student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.Form6.resources
 E:\AutoFy\AutoFy\bin\Debug\AutoFy.exe.config
 E:\AutoFy\AutoFy\bin\Debug\AutoFy.exe
 E:\AutoFy\AutoFy\bin\Debug\AutoFy.pdb
@@ -55,3 +47,29 @@ G:\AutoFy\AutoFy\obj\Debug\AutoFy.pdb
 E:\AutoFy\AutoFy\obj\Debug\AutoFy.CarCheckoutForm.resources
 E:\AutoFy\AutoFy\obj\Debug\AutoFy.CarRentForm.resources
 E:\AutoFy\AutoFy\obj\Debug\AutoFy.PaymentForm.resources
+\\192.168.3.250\Veda\3 курс\ИСП 31-9\МДК 06.02\Субботин\AutoFy\AutoFy\AutoFy\obj\Debug\AutoFy.csprojAssemblyReference.cache
+\\192.168.3.250\Veda\3 курс\ИСП 31-9\МДК 06.02\Субботин\AutoFy\AutoFy\AutoFy\obj\Debug\AutoFy.exe
+\\192.168.3.250\Veda\3 курс\ИСП 31-9\МДК 06.02\Субботин\AutoFy\AutoFy\AutoFy\obj\Debug\AutoFy.pdb
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\Newtonsoft.Json.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Data.SQLite.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\Telegram.Bot.dll
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\Newtonsoft.Json.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Data.SQLite.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\student\Documents\AutoFy\AutoFy\bin\Debug\Telegram.Bot.xml
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csprojAssemblyReference.cache
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.AdminForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.ContactsForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.LoginForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.SignupForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.ChooseCarForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.CarCheckoutForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.CarRentForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.PaymentForm.resources
+C:\Users\student\Documents\AutoFy\AutoFy\obj\Debug\AutoFy.csproj.CopyComplete

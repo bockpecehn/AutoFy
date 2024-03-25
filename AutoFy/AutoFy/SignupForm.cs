@@ -2,6 +2,8 @@
 using System.Data.SQLite;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Linq;
+using System.IO;
 
 namespace AutoFy
 {
@@ -95,5 +97,54 @@ namespace AutoFy
             newForm.Show();
             thisForm.Close();
         }
+        #region GenerateRandom
+        string GRP(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            Random random = new Random();
+            return new string(Enumerable.Repeat(chars, length)
+              .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        string GRPH(int length)
+        {
+            const string chars = "0123456789";
+            Random random = new Random();
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+        #endregion
+        #region AutoTest
+        private void AutoTestBut_Click(object sender, EventArgs e)
+        {
+            var randomName = File.ReadAllLines("randomNameSurname\\name.txt");
+            Random random = new Random();
+
+            string[] randomReg = { "950", "999", "912", "918", "909", "904", "963", "952" };
+            var randomSurName = File.ReadAllLines("randomNameSurname\\surname.txt");
+            int recordsToInsert = 5;
+
+            for (int i = 0; i < recordsToInsert; i++)
+            {
+                string RanName = randomName[random.Next(randomName.Length)];
+                string RanSName = randomSurName[random.Next(randomSurName.Length)];
+                string RanPass = GRP(8);
+                string RanPN = "+7" + "(" + randomReg[random.Next(randomReg.Length)] + ")" + GRPH(7);
+
+                SQLiteCommand commandInsert = new SQLiteCommand($"INSERT INTO Users (Name, Surname, PhoneNumber ,Password, Role)" +
+                    $" VALUES ('{RanName}','{RanSName}', '{RanPN}', '{RanPass}', 'USER')", DB);
+                _ = commandInsert.ExecuteNonQueryAsync();
+            }
+            DelBut.Visible = true;
+            AutoTestBut.Visible = false;
+        }
+
+        private void DelBut_Click(object sender, EventArgs e)
+        {
+            SQLiteCommand commandDelete = new SQLiteCommand("DELETE FROM Users ORDER BY ID DESC LIMIT 5", DB);
+            _ = commandDelete.ExecuteNonQueryAsync();
+            DelBut.Visible = false;
+            AutoTestBut.Visible = true;
+        }
+        #endregion
     }
 }
