@@ -46,7 +46,7 @@
             this.BackButton = new System.Windows.Forms.Button();
             this.SendButton = new System.Windows.Forms.Button();
             this.Communication = new System.Windows.Forms.Label();
-            this.InfoPCrtb = new System.Windows.Forms.RichTextBox();
+            this.ConfigBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -228,21 +228,22 @@
             this.Communication.Size = new System.Drawing.Size(0, 20);
             this.Communication.TabIndex = 28;
             // 
-            // InfoPCrtb
+            // ConfigBtn
             // 
-            this.InfoPCrtb.Location = new System.Drawing.Point(229, 54);
-            this.InfoPCrtb.Name = "InfoPCrtb";
-            this.InfoPCrtb.ReadOnly = true;
-            this.InfoPCrtb.Size = new System.Drawing.Size(335, 255);
-            this.InfoPCrtb.TabIndex = 29;
-            this.InfoPCrtb.Text = "";
+            this.ConfigBtn.Location = new System.Drawing.Point(359, 526);
+            this.ConfigBtn.Name = "ConfigBtn";
+            this.ConfigBtn.Size = new System.Drawing.Size(75, 23);
+            this.ConfigBtn.TabIndex = 29;
+            this.ConfigBtn.Text = "ПК конфиг";
+            this.ConfigBtn.UseVisualStyleBackColor = true;
+            this.ConfigBtn.Click += new System.EventHandler(this.ConfigBtn_Click);
             // 
             // ContactsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.InfoPCrtb);
+            this.Controls.Add(this.ConfigBtn);
             this.Controls.Add(this.Communication);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.BackButton);
@@ -294,6 +295,6 @@
         private System.Windows.Forms.Button BackButton;
         private System.Windows.Forms.Button SendButton;
         private System.Windows.Forms.Label Communication;
-        private System.Windows.Forms.RichTextBox InfoPCrtb;
+        private System.Windows.Forms.Button ConfigBtn;
     }
 }

@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace AutoFy
@@ -103,10 +104,11 @@ namespace AutoFy
                     _ = MessageBox.Show("Неверный логин или пароль", "Ошибка авторизации");
                 
             }
-            // Обработка исключительных ситуаций
+
             catch (Exception ex)
             {
-                _ = MessageBox.Show($"{ex.Message}", $"{ex.Source}");
+                // Обработка других исключений
+                _ = MessageBox.Show($"Произошла ошибка: {ex.Message}", ex.Source);
             }
             // Освобождение ресурсов
             finally
