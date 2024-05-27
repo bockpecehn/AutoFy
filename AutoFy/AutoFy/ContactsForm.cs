@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Text;
 using System.Windows.Forms;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
-using System.Management;
-using Microsoft.Win32;
 
 namespace AutoFy
 {
@@ -33,7 +30,7 @@ namespace AutoFy
         {
             PhoneNumberAdmin.Text = "   Номер телефона\r\n+7(999) 228 - 13 - 37";
             TGMessage.Text = "Или можете написать свою \r\n          проблему здесь";
-            Communication.Text = "          Связь \r\nс администрацией";            
+            Communication.Text = "          Связь \r\nс администрацией";
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -70,11 +67,11 @@ namespace AutoFy
                         "Контакты", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
-                
+
                     // вывод сообщения об ошибке
                     _ = System.Windows.Forms.MessageBox.Show("Введите данные",
                         "Контакты", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+
             }
             catch (ApiRequestException ex)
             {
@@ -88,7 +85,7 @@ namespace AutoFy
         private void ConfigBtn_Click(object sender, EventArgs e)
         {
             Config.ConfigPc();
-            System.Windows.Forms.MessageBox.Show($"{Config.GetConfigInfo()}","Конфигурация Вашего компьютера");
+            System.Windows.Forms.MessageBox.Show($"{Config.GetConfigInfo()}", "Конфигурация Вашего компьютера");
         }
     }
 }

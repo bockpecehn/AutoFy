@@ -63,7 +63,7 @@ namespace AutoFy
         {
             // если хотя бы одно из полей пустое
             if (string.IsNullOrEmpty(UserName.Text) || string.IsNullOrEmpty(UserSurname.Text)
-    || string.IsNullOrEmpty(UserPhoneNumber.Text) || string.IsNullOrEmpty(UserPassword.Text))
+            || string.IsNullOrEmpty(UserPhoneNumber.Text) || string.IsNullOrEmpty(UserPassword.Text))
             {
                 // вывод сообщения о необходимости заполнения всех полей
                 _ = MessageBox.Show("Заполните все поля");
@@ -105,7 +105,7 @@ namespace AutoFy
             return new string(Enumerable.Repeat(chars, length)
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-        string GRPH(int length)
+        string GRPN(int length)
         {
             const string chars = "0123456789";
             Random random = new Random();
@@ -128,7 +128,7 @@ namespace AutoFy
                 string RanName = randomName[random.Next(randomName.Length)];
                 string RanSName = randomSurName[random.Next(randomSurName.Length)];
                 string RanPass = GRP(8);
-                string RanPN = "+7" + "(" + randomReg[random.Next(randomReg.Length)] + ")" + GRPH(7);
+                string RanPN = "+7" + "(" + randomReg[random.Next(randomReg.Length)] + ")" + GRPN(7);
 
                 SQLiteCommand commandInsert = new SQLiteCommand($"INSERT INTO Users (Name, Surname, PhoneNumber ,Password, Role)" +
                     $" VALUES ('{RanName}','{RanSName}', '{RanPN}', '{RanPass}', 'USER')", DB);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Management;
 using System.Text;
 
@@ -13,7 +14,10 @@ namespace AutoFy
         private static StringBuilder sb = new StringBuilder();
         public static void ConfigPc()
         {
-
+            string netFrameworkVersion = GetDotNetFrameworkVersion();
+            sb.AppendLine(".NET Framework версия: " + netFrameworkVersion + "\n");
+            string netCoreVersion = GetDotNetCoreVersion();
+            sb.AppendLine(".NET Core версия: " + netCoreVersion + "\n");
 
             // Получаем информацию о версии Windows
             foreach (var os in osSearcher.Get())
@@ -60,5 +64,27 @@ namespace AutoFy
         {
             return sb.ToString();
         }
+        public static string GetDotNetFrameworkVersion()
+        {
+            using (RegistryKey regKey = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full"))
+            {
+                if (regKey != null && regKey.GetValue("Version") != null)
+                {
+                    return regKey.GetValue("Version").ToString();
+                }
+            }
+            return "Никакой версии .NET Framework не найдено!";
+        }
+       public static string GetDotNetCoreVersion()
+       {
+            using (RegistryKey regKey = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\dotnet\Setup\InstalledVersions\x64\Desktop"))
+            {
+                if (regKey != null && regKey.GetValue("Version") != null)
+                {
+                    return regKey.GetValue("Version").ToString();
+                }
+            }
+            return "Никакой версии .NET Сore не найдено!";
+       }
     }
 }

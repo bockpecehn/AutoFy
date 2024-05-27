@@ -88,6 +88,7 @@ namespace AutoFy
                 
                     // Показ сообщения о том, что текстовые поля пусты
                     _ = System.Windows.Forms.MessageBox.Show("Введите данные", "Контакты", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 
             }
             catch (ApiRequestException ex)
