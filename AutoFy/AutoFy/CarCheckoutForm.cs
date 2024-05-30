@@ -50,30 +50,30 @@ namespace AutoFy
         private void CarPicture2_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
-            
+
                 CarPicture1.Image = (Image)originalImage1.Clone();
-            
+
         }
         private void CarPicture3_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
-            
+
                 CarPicture1.Image = (Image)originalImage2.Clone();
-            
+
         }
         private void CarPicture5_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
-            
+
                 CarPicture1.Image = (Image)originalImage4.Clone();
-            
+
         }
         private void CarPicture4_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
-            
+
                 CarPicture1.Image = (Image)originalImage3.Clone();
-            
+
         }
         #endregion
         #region MouseMove

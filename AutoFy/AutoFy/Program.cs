@@ -1,7 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
-using System.Management;
-using System.Text;
+﻿using System;
 using System.Windows.Forms;
 
 namespace AutoFy

@@ -71,10 +71,10 @@ namespace AutoFy
         {
             // если текст поля Month может быть преобразован в число и преобразованное число больше максимального значения
             if (int.TryParse(Month.Text, out int value) && value > maxValue)
-            
+
                 // присвоение тексту поля Month максимального значения
                 Month.Text = maxValue.ToString();
-            
+
         }
         #region PayButton
         private async void PayButton_Click(object sender, EventArgs e)
@@ -102,10 +102,10 @@ namespace AutoFy
                 }
                 // если не все поля заполнены
                 else
-                
+
                     // вывод сообщения о необходимости заполнения всех полей
                     _ = System.Windows.Forms.MessageBox.Show("Введите данные", "Контакты", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+
             }
             // если произошла ошибка при отправке сообщения
             catch (ApiRequestException ex)
@@ -120,39 +120,39 @@ namespace AutoFy
         {
             // если нажата не цифровая клавиша или не клавиша "Backspace"
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
-            
+
                 // запрет обработки события
                 e.Handled = true;
-            
+
         }
 
         private void Year_KeyPress(object sender, KeyPressEventArgs e)
         {
             // если нажата не цифровая клавиша или не клавиша "Backspace"
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
-            
+
                 // запрет обработки события
                 e.Handled = true;
-            
+
         }
         private void CardNumber_KeyPress(object sender, KeyPressEventArgs e)
         {
             // если нажата не цифровая клавиша или не клавиша "Backspace"
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
-            
+
                 // запрет обработки события
                 e.Handled = true;
-            
+
         }
 
         private void SecurityCode_KeyPress(object sender, KeyPressEventArgs e)
         {
             // если нажата не цифровая клавиша или не клавиша "Backspace"
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b')
-            
+
                 // запрет обработки события
                 e.Handled = true;
-            
+
         }
         #endregion
     }
